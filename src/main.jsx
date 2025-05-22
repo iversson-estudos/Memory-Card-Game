@@ -4,8 +4,5 @@ import getRandomCard from './utils/getRandomCard'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <p>GG</p>
   </StrictMode>
 )
-
-getRandomCard();
