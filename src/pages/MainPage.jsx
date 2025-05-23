@@ -2,6 +2,7 @@ import ImgGrid from '../components/ImgGrid'
 import Header from '../components/Header';
 import randomNumbersArray from '../utils/randomNumbersArray'
 import { useEffect, useState} from 'react';
+import styles from './MainPage.module.css'
 
 export default function MainPage(){
 
@@ -38,9 +39,9 @@ const handleClick = (value)=>{
 
 
 return(
-  <>
+  <div className={styles.mainPage}>
     <Header score={score} highestScore={highestScore}/>
     <ImgGrid order={randomNumbersArray(14)} imgOnClick={handleClick}/>
-  </>
+  </div>
   )}
 
