@@ -2,4 +2,13 @@
     display: flex;
     justify-content: flex-end;
     gap: 64px;
+
+  
+    p{
+    color: white;
+    background: rgba(4, 9, 121, 1);
+    border-radius: 0.5rem;
+    border: 3px solid rgba(255, 179, 0, 0.7);
+
+    }
 }
